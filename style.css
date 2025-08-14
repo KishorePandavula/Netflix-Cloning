@@ -1,0 +1,305 @@
+        nav{
+            background-color: black;
+            
+        }
+        .header1{
+            
+            position: relative;
+            bottom: 700px;
+        }
+        header{
+        
+            height: 100px;
+        }
+        .bg1{
+            height: 90vh;
+            /* width: 100vw; */
+            background-image:  linear-gradient(black,black,black);
+            
+            background-image: url(images/netflix\ img.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 700px;
+            opacity: 0.3;
+            position: relative;
+            top: 0px;
+        
+        }
+        .nav{
+            height: 200px;
+            width: 200px;
+        position: relative;
+        left: 100px;
+        
+    bottom: 700px;
+            /* color:rgb(229, 9, 20); */
+            
+            /* background-color:white; */
+            color:red;
+            display:flex;
+            justify-content: space-evenly;
+            font-size: 30px;
+            font-weight: bold;
+            
+            
+        }
+        .nav>svg{
+          color:white;
+            
+        }
+        .navbar{
+            
+            width: 300px;
+            position: relative;
+            left: 1100px;
+            bottom: 190px;
+            
+        }
+        .navbar>select{
+            
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 120px;
+            border-radius: 8px;
+            box-shadow: red;
+            font-family:sans-serif;
+            font-weight: bold;
+            position: relative;
+            top: 40px;
+        }
+        .navbar>button{
+            
+            background-color: red;
+            color: white;
+            height: 40px;
+            width: 100px;
+            border-radius: 8px;
+            font-family:sans-serif;
+            font-weight: bold;
+            position: relative;
+            top: 40px;
+        }
+        .heading{
+            
+            text-align: center;
+            margin: -50px;
+            position: relative;
+            top: 0px;
+            /* background-color: white; */
+            
+        }
+        .heading>h1{
+            color: whitesmoke;
+            font-size: 50px;
+            font-weight: bold;
+            font-family: sans-serif;
+        position: relative;
+        top: 0px;
+    
+    
+        }
+        .heading>p{
+            color: white;
+            font-size: 20px;
+        }
+        .heading>input{
+            width: 300px;
+            height: 40px;
+            border-radius: 6px;
+            color:white;
+            background-color:black;
+            font-size: 20px;
+            
+        }
+        .heading>button{
+            border: 2px solid red;
+            width: 150px;
+            height: 45px;
+            color: white;
+            background-color: red;
+            border-radius: 6px;
+            font-size: 20px;
+        }
+        main{
+            
+            
+           background-color: black;
+           height: 500px;
+           width: 100%;
+        }
+        .div1{
+            
+            margin-left: 100px;
+                            margin-top: 50px;
+        }
+        .div1>h1{
+            font-size: 30px;
+            color: white;
+
+        }
+        .div1>select{
+            height: 40px;
+            width: 100px;
+            font-size: 20px;
+            color: white;
+            background-color: black;
+            border-radius: 5px;
+        }
+        .cards{
+        
+            margin-left: 150px;
+            position: relative;
+            top: 40px;
+            display: flex;
+            justify-content: space-evenly;
+            width: 1200px;
+        }
+        .cards>img{
+            border-radius: 8px;
+            border: 2px solid gray;
+
+        }
+        .cards>img:hover{
+            transition: all 2s;
+            transform: scale(1.1);
+        }
+        .cards2{
+            
+            background-color: black;
+        }
+        .cards2>h1{
+            color: white;
+            
+            margin-left: 120px;
+        }
+        .flex{
+            
+            display: flex;
+            justify-content: space-around;
+            width: 1300px;
+            position: relative;
+            left: 120px;
+           
+        }
+        .flex>div{
+            
+            height: 250px;
+            width: 300px;
+            text-align: center;
+            background-image: linear-gradient(rgb(86, 81, 149), rgb(9, 57, 153),black);
+            border-radius: 8px;
+
+        }
+        .flex>div>h1{
+        text-align: justify;
+        padding-left: 20px;
+        font-size: 24px;
+        color: white;
+        }
+        .para1{
+            text-align: justify;
+            padding-left: 20px;
+            
+            color: gray;
+           
+        }
+        .boxes{
+            background-color: black;
+        
+        }
+        .boxes>h1{
+            color: white;
+            margin-top: 100px;
+            margin-left: 150px;
+            
+        }
+        .drop{
+            
+            width: 500px;
+            position: relative;
+            left: 150px;
+        }
+        .drop>select{
+            
+            width: 1300px;
+            height: 80px;
+            font-size: 20px;
+            color: white;
+            background-color:rgba(111, 107, 107, 0.603);
+            
+        }
+        .drop>select:hover{
+            background-color: rgb(101, 98, 98);
+        }
+        .content{
+    
+            text-align: center;
+            background-color: black;
+        }
+        .content>p{
+          font-size: 20px;
+          color: white;
+          
+          margin-top: 100px;
+        }
+        .content>input{
+            width: 500px;
+            height: 40px;
+            border-radius: 2px;
+            color: gray;
+            background-color:black;
+            font-size: 20px;
+        }
+        .content>button{
+            
+            width: 200px;
+            height: 45px;
+            color: white;
+            background-color: red;
+            border-radius: 2px;
+            font-size: 20px;
+        }
+        footer{
+            
+            background-color: black;
+            height: 500px;
+        }
+        .footer{
+             display: flex;
+            justify-content: space-around;
+        
+            
+            
+        }
+        .footer>p{
+            color: white;
+            margin-left: 120px;
+        }
+        .footer>div{
+            
+            font-size: 20px;
+            position: relative;
+            top: 100px;
+            right:150px;
+            width: 1100px;
+        }
+        .footer>div>ul{
+            list-style: none;
+        }
+        .footer>div>ul>li{
+            color: white;
+        }
+        #but1{
+            
+            background-color: black;
+            color: white;
+            height: 40px;
+            width: 400px;
+            border-radius: 8px;
+            font-family:sans-serif;
+            font-weight: bold;
+            position: relative;
+            right: 1270px;
+            top: 350px;
+        }
